@@ -1,0 +1,32 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  font-family: sans-serif;
+  display: flex;
+  flex-flow: nowrap column;
+  padding: 1em;
+  gap: 1em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  hr {
+    width: 100%;
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    margin: 1em 0;
+  }
+  > hr {
+    margin: 0;
+  }
+  footer {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    margin: auto -1em -1em;
+    padding: .66em 1em;
+    border-top: 1px solid #ddd;
+  }
+}
+
